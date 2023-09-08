@@ -1,0 +1,109 @@
+@import "reset.css";
+body,
+section,
+.center,
+.finance_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  width: 100vw;
+}
+header {
+  height: 7rem;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+/* main */
+main {
+  width: 100%;
+}
+
+/* section */
+section {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--back-color);
+}
+
+/* article */
+article {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* 첫번째 */
+article.intro {
+  height: 44.1rem;
+  justify-content: center;
+  background-color: slateblue;
+  font-family: "Oswald", sans-serif;
+}
+
+article div.finance_btn {
+  width: 10.7rem;
+  height: 4rem;
+
+  justify-content: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.175rem;
+
+  color: white;
+  background-color: var(--main-color);
+}
+
+article div.intro_text {
+  width: 27.5rem;
+  text-align: center;
+
+  font-size: 2.6rem;
+  color: white;
+
+  letter-spacing: -0.038rem;
+  line-height: 3.92rem;
+}
+article div.center {
+  justify-content: center;
+  background-color: blue;
+}
+
+/* 두번째 */
+article.stories {
+  background-color: white;
+  border: 0.1rem #f2f3f6 solid;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+article div.stories_title {
+  font-family: "Oswald", sans-serif;
+}
+
+/* 해야하는 것: 마지막 보더는 없애야함!! */
+article div.ranking {
+  height: 10.9rem;
+  display: flex;
+  align-items: center;
+
+  padding: 2.7rem;
+  border-bottom: 0.1rem var(--gray-001) solid;
+}
+
+article div.ranking_text {
+  width: 21rem;
+
+  font-family: "Lato", sans-serif;
+  color: var(--black-001);
+  line-height: 2.6rem;
+  letter-spacing: -0.02rem;
+}
+
+article div.number {
+  margin-right: 2.5rem;
+  font-family: "Oswald", sans-serif;
+
+  color: var(--black-001);
+  opacity: 0.1662;
+}
