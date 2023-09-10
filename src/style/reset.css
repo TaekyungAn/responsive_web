@@ -133,4 +133,6 @@ table {
   --gray-001: #ebebeb;
   --gray-002: #f2f3f6;
   --back-color: #f9fafc;
+  --point-font: "Oswald", sans-serif;
+  --regular-font: "Lato", sans-serif;
 }
